@@ -5,6 +5,7 @@ from keras.layers import Dense
 from keras.models import Sequential
 import os
 
+
 model = Sequential()
 model.add(Convolution2D(filters=32, 
                         kernel_size=(3,3), 
